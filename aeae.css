@@ -75,9 +75,9 @@
   --status-picker-color: #2c2d31;
   --sidebar-panel-color: #212226;
   --chat-color: var(--main-color);
-  --message-color: hsl(22,23%,26%);
+  --message-color: hsl(24,20%,28%);
   --message-color-hover: hsl(216,7%,18%);
-  --message-color-alt: hsl(216,7%,13%);
+  --message-color-alt: hsl(24,20%,28%);
   --attachment-color: hsl(216,7%,9%);
   --typing-color: rgba(22,23,26,0.9);
   --popout-color: #2c2f33;
