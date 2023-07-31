@@ -66,7 +66,7 @@
 }
 
 .theme-dark {
-  --main-color: #16171a;
+  --main-color: #2C2F33;
   --main-alt: #0f1012;
   --accent-hsl--material-you: var(--accent-hsl);
   --accent-text-color--material-you: var(--accent-text-color);
@@ -75,7 +75,7 @@
   --status-picker-color: #2c2d31;
   --sidebar-panel-color: #212226;
   --chat-color: var(--main-color);
-  --message-color: hsl(22,23%,26%);
+  --message-color: hsl(44,47%,51%);
   --message-color-hover: hsl(216,7%,18%);
   --message-color-alt: hsl(216,7%,13%);
   --attachment-color: hsl(216,7%,9%);
