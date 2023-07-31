@@ -75,7 +75,7 @@
   --status-picker-color: #2c2d31;
   --sidebar-panel-color: #212226;
   --chat-color: var(--main-color);
-  --message-color: hsl(216,7%,14%);
+  --message-color: var(--main-color);
   --message-color-hover: hsl(216,7%,18%);
   --message-color-alt: hsl(216,7%,13%);
   --attachment-color: hsl(216,7%,9%);
@@ -1105,6 +1105,41 @@ html:not(.app-focused) .typeWindows-2-g3UY .winButton-3UMjdg.winButtonMinMax-3Rs
 .avatar-l9Txm5,
 .blob-1uHjdp {
   background-color: #fff;
+}
+
+/* CHAT AREA -> NEW MESSAGES PILL */
+.newMessagesPill-2YdO-e,
+.newMessagesClear-2LQVHt {
+  background-color: hsl(var(--accent-hsl--material-you)) !important;
+  box-shadow: var(--shadow-3dp);
+}
+
+.newMessagesPill-2YdO-e {
+  position: relative;
+  padding: 9px 16px;
+  border-radius: 18px;
+}
+.newMessagesPill-2YdO-e:after {
+  position: absolute;
+  content: " ";
+  width: 40px;
+  height: 36px;
+  top: 0;
+  right: -24px;
+  z-index: -1;
+}
+.newMessagesPill-2YdO-e .defaultColor-1EVLSt {
+  color: var(--accent-text-color--material-you);
+}
+
+.newMessagesClear-2LQVHt {
+  margin-left: 8px;
+  padding: 10px;
+  border-radius: 18px;
+  border-left: none;
+}
+.newMessagesClear-2LQVHt .newMessagesClearIcon-1hFLsw {
+  color: var(--accent-text-color--material-you);
 }
 
 /* CHAT AREA -> NEW MESSAGES BAR */
